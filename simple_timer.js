@@ -5,6 +5,7 @@ function simpleTimeout(consoleTimer){
     console.timeEnd(consoleTimer)
 }
 
+//"twoSecond"计时器的名字
 console.time("twoSecond");
 setTimeout(simpleTimeout, 2000, "twoSecond");
 console.time("oneSecond");
